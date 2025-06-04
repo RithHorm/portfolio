@@ -91,7 +91,10 @@ const AboutMePage = () => {
                     <Facebook /> Facebook
                   </button>
                 </a>
-                <a href="https://web.facebook.com/rith.horm.75" target="_blank">
+                <a
+                  href="https://www.instagram.com/yennn_ye?igsh=MTJuemRubWg1dGl5MQ%3D%3D&utm_source=qr"
+                  target="_blank"
+                >
                   <button className="flex gap-2 text-white w-[170px] md:w-[180px] px-8 py-2 rounded-md transition duration-300 border border-[#454545] hover:bg-[#454545]">
                     <Instagram /> Instagram
                   </button>

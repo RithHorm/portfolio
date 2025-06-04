@@ -3,6 +3,7 @@ import "./App.css";
 
 // route
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
@@ -17,6 +18,7 @@ const App = () => {
     <div className="flex justify-center items-start max-w-screen min-h-svh bg-[#09090b] text-[#a1a1aa]">
       <div className="w-screen p-4 md:max-w-[768px] md:p-6 ">
         <Router>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />

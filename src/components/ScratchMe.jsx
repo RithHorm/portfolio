@@ -6,7 +6,7 @@ const ScratchMe = () => {
     <div>
       <header className="mt-10 mb-12 text-4xl md:text-5xl">
         <h2 className="text-center space tracking-wider font-montserrat font-semibold">
-          Scratch Me
+          Scratch Here
         </h2>
       </header>
       <div className="flex justify-center items-center">

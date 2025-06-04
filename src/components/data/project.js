@@ -1,6 +1,7 @@
 import project1 from "@/assets/img/project1.png";
 import project2 from "@/assets/img/project2.png";
 import project3 from "@/assets/img/project3.png";
+import project4 from "@/assets/img/project4.png";
 import { Link } from "react-router-dom";
 
 const projects = [
@@ -124,6 +125,58 @@ const projects = [
         type: "paragraph",
         content:
           "Deployed a fully functional WordPress-based eCommerce website using InfinityFree, a free hosting platform. The site includes product listings, shopping cart functionality, and secure checkout. Optimized for performance within InfinityFree's limitations, with custom themes and essential WooCommerce integrations",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Personal Portfolio",
+    img: project4,
+    technology: [
+      "React",
+      "Tailwind",
+      "Magic Ui",
+      "HTML",
+      "Vercel",
+      "Aceternity Ui",
+    ],
+    url: "https://rithhorm-portfolio.vercel.app/",
+    description: [
+      { type: "heading", content: "Overview" },
+      {
+        type: "paragraph",
+        content:
+          " This portfolio website, built with React and powered by Vite, is a modern, fast, and responsive single-page application designed to showcase Rith Horm's professional profile, development skills, and project work. It serves as an interactive résumé and personal brand platform, offering visitors a clean and intuitive user experience. The portfolio is designed with a developer-first mindset, highlighting real-world projects, tech stacks, and roles in a clear and accessible layout. Whether viewed on a desktop or mobile device, it remains polished and performant, thanks to its lightweight framework and optimized build setup",
+      },
+
+      { type: "heading", content: "Features" },
+      {
+        type: "list",
+        content: [
+          "Beautifully styled UI with modern design aesthetics.",
+          "Focus on simplicity, readability, and visual hierarchy.",
+          "Mobile-friendly and fully responsive design using Tailwind CSS.",
+          "Optimized for different screen sizes and devices.",
+          "Lightning-fast page loads and smooth transitions.",
+        ],
+      },
+      { type: "heading", content: "Pages" },
+      {
+        type: "list",
+        content: [
+          "Home Page/ Landing page: The landing section introduces visitors to myself with a professional title and a brief tagline. It features a clean design with a prominent call-to-action button that encourages users to explore further.",
+          "About Me Page: This section provides an overview of my background, including education and personal interests that offers insight into my journey as a developer and passion for technology.",
+          "Projects Page: The Projects section showcases a curated selection of Rith Horm's work. Each project entry includes project title, description, technologies used to build and link to direct access to the live project",
+          "Contact: The Contact section offers multiple ways for visitors to get in touch with me. It includes contact form, email address and social media links.",
+          "Study Resource Page: The Study Resources section is where I share the  videos, tutorials, and tools that have helped me learn and grow as a developer. I put this together to keep track of what I’ve found useful and also to help other students, developers, or anyone looking to improve their skills.",
+        ],
+      },
+
+      { type: "heading", content: "Deploy" },
+      {
+        type: "paragraph",
+        content:
+          "This portfolio is deployed using Vercel a fast and easy platform for hosting frontend applications.",
       },
     ],
   },
