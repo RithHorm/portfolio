@@ -2,7 +2,6 @@ export const cards = [
   {
     id: 1,
     thumbnail: "src/assets/img/ruppImg.jpg",
-    // C:\Users\ADMIN\Desktop\portfolio\src\assets\img\
     gridSpan: "col-span-5 row-span-1",
   },
   {
