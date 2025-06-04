@@ -4,7 +4,7 @@ import "./App.css";
 // route
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import AboutMePage from "./pages/AboutMePage";
@@ -18,10 +18,6 @@ const App = () => {
       <div className="w-screen p-4 md:max-w-[768px] md:p-6 ">
         <Router>
           <Routes>
-            {/* <Header />
-            <Intro />
-            <AboutMe />
-            <Slider /> */}
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<AboutMePage />} />
@@ -29,7 +25,7 @@ const App = () => {
             <Route path="/projects/:id" element={<ProjectDetails />} />
             <Route path="/resources" element={<ResourcesPage />} />
           </Routes>
-          <Navbar />
+          <NavBar />
         </Router>
       </div>
     </div>

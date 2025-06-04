@@ -7,7 +7,6 @@ import StudyResources from "@/components/StudyResources";
 import ScratchMe from "@/components/ScratchMe";
 import ContactForm from "@/components/ContactForm";
 
-// import { BlurFade } from "@/components/magicui/blur-fade";
 import { BlurFade } from "@/components/ui/magicui/blur-fade";
 const Home = () => {
   return (

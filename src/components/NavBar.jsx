@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { FloatingDock } from "./ui/uis/floating-dock";
-const Navbar = () => {
+const NavBar = () => {
   const dockItems = [
     {
       title: "Home",
@@ -52,4 +52,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
