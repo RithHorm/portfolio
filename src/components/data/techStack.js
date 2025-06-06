@@ -26,22 +26,22 @@ const techStack = [
   },
   {
     name: "React Js",
-    progress: 60,
+    progress: 50,
     url: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
   },
   {
     name: "MySQL",
-    progress: 20,
+    progress: 10,
     url: "https://banner2.cleanpng.com/20180727/jhz/kisspng-mysql-database-sperrverfahren-technology-web-design-5b5b1a8ce496f1.1755099215326972289363.jpg",
   },
   {
     name: "PHP",
-    progress: 20,
+    progress: 10,
     url: "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
   },
   {
     name: "Wordpress",
-    progress: 25,
+    progress: 15,
     url: "https://download.logo.wine/logo/WordPress.com/WordPress.com-Logo.wine.png",
   },
 ];
