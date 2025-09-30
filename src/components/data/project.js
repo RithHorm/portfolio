@@ -19,7 +19,7 @@ const projects = [
       "Bootstrap",
       "ThemeWagon",
     ],
-    url: "https://main.d2aa8sm0is0byf.amplifyapp.com/",
+    url: "https://react-ecommerce-six-sandy.vercel.app/",
     description: [
       { type: "heading", content: "Overview" },
       {
