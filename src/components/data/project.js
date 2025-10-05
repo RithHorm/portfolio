@@ -84,7 +84,7 @@ const projects = [
     title: "VYREX Store",
     img: project3,
     technology: ["wordpress", "Template", "Infinity Free", "Pay Pal"],
-    url: "https://vyrex.infinityfreeapp.com/",
+    url: "https://vyrex-e.infinityfreeapp.com/",
     description: [
       { type: "heading", content: "Overview" },
       {
