@@ -1,3 +1,6 @@
+import MongoDB from "./../../assets/img/MongoDB.png";
+import ExpressJs from "./../../assets/img/ExpressJs.png";
+import NodeJs from "./../../assets/img/NodeJs.png";
 const techStack = [
   {
     name: "HTML",
@@ -43,6 +46,21 @@ const techStack = [
     name: "Wordpress",
     progress: 15,
     url: "https://download.logo.wine/logo/WordPress.com/WordPress.com-Logo.wine.png",
+  },
+  {
+    name: "MongoDB",
+    progress: 30,
+    url: MongoDB,
+  },
+  {
+    name: "Node Js",
+    progress: 30,
+    url: NodeJs,
+  },
+  {
+    name: "Express Js",
+    progress: 20,
+    url: ExpressJs,
   },
 ];
 export default techStack;

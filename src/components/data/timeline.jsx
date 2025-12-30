@@ -1,7 +1,9 @@
 // timeline.jsx
 import React from "react"; // Optional in React 18+ with new JSX transform
 import graduatePic from "@/assets/img/graduate.jpg";
-
+import RuppLogo from "@/assets/img/RUPP_logo.png";
+import RuppImg from "@/assets/img/rupp-img.avif";
+import WebDev from "@/assets/img/Frontend-Development.webp";
 export const timelineData = [
   {
     title: "2022 - Present",
@@ -13,12 +15,12 @@ export const timelineData = [
         </p>
         <div className="flex gap-5">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/a/a2/RUPP_logo.PNG"
+            src={RuppLogo}
             alt="Learning"
             className="mt-4 w-30 h-30 max-w-sm rounded-lg object-cover"
           />
           <img
-            src="https://www.researchgate.net/publication/335101723/figure/fig1/AS:790482535870464@1565477131379/Royal-University-of-Phnom-Penhs-main-building-Building-A.jpg"
+            src={RuppImg}
             alt="Learning"
             className="mt-4 w-30 h-30 max-w-sm rounded-lg object-cover"
           />
@@ -40,7 +42,7 @@ export const timelineData = [
             className="mt-4 w-30 h-30 max-w-sm rounded-lg object-cover"
           />
           <img
-            src="https://www.instinct.edu.kh/instinct-admin/admin_page/course_image/Picture12.png"
+            src={WebDev}
             alt="Learning"
             className="mt-4 w-30 h-30 max-w-sm rounded-lg object-cover"
           />

@@ -6,6 +6,8 @@ import Projects from "@/components/Projects";
 import StudyResources from "@/components/StudyResources";
 import ScratchMe from "@/components/ScratchMe";
 import ContactForm from "@/components/ContactForm";
+import ItSppExp from "@/components/ItSppExp";
+import WorkExperience from "@/components/WorkExperience";
 
 import { BlurFade } from "@/components/ui/magicui/blur-fade";
 const Home = () => {
@@ -16,6 +18,8 @@ const Home = () => {
         <Intro />
         <AboutMe />
         <Slider />
+        <ItSppExp />
+        <WorkExperience />
         <Projects />
         <StudyResources />
         <ScratchMe />
