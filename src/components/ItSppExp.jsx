@@ -6,7 +6,7 @@ const ItSppExp = () => {
     <div className="mt-10">
       <header>
         <h3 className="text-lg md:text-2xl font-montserrat font-semibold mb-4">
-          Technical Experience (University / Acedemic)
+          Technical Experience (University-Based / Acedemic)
         </h3>
         <h5 className="">
           This technical experience was gained through university coursework

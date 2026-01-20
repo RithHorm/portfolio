@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 const otherExperiences = [
   {
     title: "AI Testing Assistant (Short-Term Work Experience)",
-    subtitle: "KG Software Solution • 2025",
+    subtitle: "KG Software Solution •Oct 2025 - Present",
     points: [
       "Tested AI-generated responses by creating and evaluating prompts against expected outputs",
       "Verified accuracy, relevance, and consistency of AI responses based on predefined criteria",
@@ -15,7 +15,7 @@ const otherExperiences = [
   },
   {
     title: "Team Leader (Department: Loss Prevention)",
-    subtitle: "Youpin Shopping Mall • Aug 2025 – Nov 2025",
+    subtitle: "Youpin Shopping Mall • Jul 2025 – Oct 2025",
     points: [
       "Supervised a small team of 5-6 members, scheduling shifts and ensuring smooth daily operations",
       "Monitored attendance, tracked task completion, and coordinated workflow to maintain efficiency",
@@ -54,7 +54,9 @@ const WorkExperience = () => {
             "
           >
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-1 w-10 h-10 rounded-full bg-white/5">{exp.icon}</div>
+              <div className="p-1 w-10 h-10 rounded-full bg-white/5">
+                {exp.icon}
+              </div>
               <div>
                 <h3 className="text-md md:text-lg font-semibold text-white">
                   {exp.title}
