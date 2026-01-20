@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 const otherExperiences = [
   {
     title: "AI Testing Assistant (Short-Term Work Experience)",
-    subtitle: "KG Software Solution •Oct 2025 - Present",
+    subtitle: "KG Software Solution • Oct 2025 - Present",
     points: [
       "Tested AI-generated responses by creating and evaluating prompts against expected outputs",
       "Verified accuracy, relevance, and consistency of AI responses based on predefined criteria",
